@@ -1,12 +1,12 @@
 ## Sample R script for Airflow demo
 
 # add package installs 
-install.packages("Hmisc")
-install.packages("tidyverse")
+install.packages('Hmisc')
+install.packages('tidyverse')
 
+library(tidyverse)
 
 # Library
-  
   {
     library(tidyverse)
     library(Hmisc)
@@ -14,10 +14,10 @@ install.packages("tidyverse")
   }
 
 # Reading csv file
-  temp <- read.csv("C:/Lala/Z-Lift Solutions/Project/CEB/Internal/R Workspace/annual-balance-sheets-2007-2021-provisional.csv")
-
+temp <- read.csv("~/Documents/GitHub/zlift_internal_airflow/annual-balance-sheets-2007-2021-provisional.csv")
+# temp
 # Prep/clean dataset
-  df <- temp %>% distinct() %>%
+df <- temp %>% distinct() %>%
           mutate(Values2 = as.numeric(Values)) %>% 
           group_by(Period, Inst_sector, Asset_liability_code) %>% 
           summarise(Total = sum(Values2, na.rm = T)) %>% ungroup()
