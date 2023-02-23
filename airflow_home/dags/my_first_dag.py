@@ -8,7 +8,7 @@ import os
 cwd = '/Users/angelateng/Documents/GitHub/zlift_internal_airflow/airflow_home/scripts'
 # Define the default arguments
 args = {
-    'owner': 'Amber',
+    'owner': 'admin',
     'start_date': airflow.utils.dates.days_ago(2),
 }
 # Instantiate the DAG passing the args as default_args

@@ -34,11 +34,15 @@ airflow users create \
           --role Admin \
           --email ambert@z-liftsolutions.com
 
+airflow webserver
+
 export AIRFLOW_HOME="$(pwd)/airflow_home"
 airflow scheduler
 ```
 
 - https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
+
+Note that the username and password are what were entered in the setup stage above. 
 
 Note that in Windows this would be: 
 
