@@ -1,4 +1,4 @@
-# zlift_internl_airflow
+# zlift_internal_airflow
 Z lift internal airflow testing
 
 ## R Script Automation Exploration: 

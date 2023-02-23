@@ -1,7 +1,6 @@
-#!/bin/sh
-cd /Users/angelateng/Documents/GitHub/zlift_internal_airflow/airflow_home/scripts/
+#!/usr/bin/env Rscript
 
-Rscript A_task.R
-# args = commandArgs(trailingOnly=TRUE)
-# setwd(dirname(args[1]))
-# source(args[1])
+args = commandArgs(trailingOnly=TRUE)
+
+setwd(dirname(args[1]))
+source(args[1])
