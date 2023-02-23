@@ -26,6 +26,16 @@ Features:
 
 **3. CronR Library or taskscheduleR** 
 
+```
+Adding cronjob:
+---------------
+
+## cronR job
+## id:   test2
+## tags: lab, xyz
+## desc: basic loading and printing of data
+0-59 * * * * /Library/Frameworks/R.framework/Resources/bin/Rscript '/Users/angelateng/Documents/GitHub/zlift_internal_airflow/sampleRscript.R'  >> '/Users/angelateng/Documents/GitHub/zlift_internal_airflow/sampleRscript.log' 2>&1
+```
 
 ## Requirements: 
 - R Scripts 
