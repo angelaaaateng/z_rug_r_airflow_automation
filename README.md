@@ -25,6 +25,14 @@ Features:
 pip install "apache-airflow[celery]==2.5.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.5.1/constraints-3.7.txt"
 
 export AIRFLOW_HOME="$(pwd)"
+
+
+airflow users create \
+          --username admin \
+          --firstname Amber \
+          --lastname Teng \
+          --role Admin \
+          --email ambert@z-liftsolutions.com
 ```
 
 - https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
