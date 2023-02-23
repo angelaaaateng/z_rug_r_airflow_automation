@@ -1,8 +1,8 @@
 ## Sample R script for Airflow demo
 
 # add package installs 
-install.packages('Hmisc')
-install.packages('tidyverse')
+# install.packages('Hmisc')
+# install.packages('tidyverse')
 
 library(tidyverse)
 library(Hmisc)
