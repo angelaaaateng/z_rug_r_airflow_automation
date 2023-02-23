@@ -12,4 +12,4 @@ res = GET(
    )
 )
 data = fromJSON(content(res, "text"))
-write.csv(data$results,"users.csv", row.names = FALSE)
+write.csv(data$results,"/Users/angelateng/Documents/GitHub/zlift_internal_airflow/users.csv", row.names = FALSE)
