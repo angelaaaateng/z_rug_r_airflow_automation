@@ -20,6 +20,11 @@ Features:
 	• Easy to Use
     • Open Source 
 
+- Installation: 
+```
+pip install "apache-airflow[celery]==2.5.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.5.1/constraints-3.7.txt"
+```
+
 **2. Cron Job**
 
 
