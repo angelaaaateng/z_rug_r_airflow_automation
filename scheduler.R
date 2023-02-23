@@ -1,7 +1,7 @@
 # for windows 
 # install.packages("taskscheduleR")
 # library(taskscheduleR)
-install.packages("cronR")
+# install.packages("cronR")
 library(cronR)
 sample_script <- "/Users/angelateng/Documents/GitHub/zlift_internal_airflow/sampleRscript.R"
 cmd <- cron_rscript(sample_script)
