@@ -77,4 +77,4 @@ In addition: Warning messages:
 
 ## Resources:
 - https://anderfernandez.com/en/blog/how-to-automate-r-scripts-on-windows-and-mac/#:~:text=To%20automate%20R%20scripts%20in%20MacOs%20is%20nearly%20as%20easy,the%20equivalent%20of%20Window's%20TaskScheduler. 
-- 
+- https://lcalcagni.medium.com/running-r-scripts-in-airflow-using-airflow-bashoperators-6d827f5da5b1 
