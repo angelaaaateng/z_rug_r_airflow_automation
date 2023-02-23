@@ -1,5 +1,5 @@
 ---
-title: “Simple Report”
+title: "Simple Report"
 output: html_document
 ---
 
@@ -7,7 +7,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Counts by gender
-![](/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_gender.png)
-### Counts by Age
-![](/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_age.png)
+
+```{r echo = FALSE, results = 'asis'}
+library(knitr)
+readfile <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/males.csv")
+kable(readfile[1:5, ], caption ='Males')
+```
+<!-- ### Counts by gender -->
+
+
+<!-- ![](/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_gender.png) -->
+<!-- ### Counts by Age -->
+<!-- ![](/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_age.png) -->
+
+```{r echo = FALSE, results = 'asis'}
+library(knitr)
+readfile <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/females.csv")
+kable(readfile[1:5, ], caption ='Females')
+```

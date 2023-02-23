@@ -2,9 +2,9 @@
 # options(repos = c(CRAN = "https://cloud.r-project.org"))
 # install.packages("ggplot2")
 # install.packages("ggplot2", dep=T)
-library(tidyverse)
-
-library(ggplot2)
+# library(tidyverse)
+# 
+# library(ggplot2)
 
 # pkgLoad <- function( packages = "favourites" ) {
 #   
