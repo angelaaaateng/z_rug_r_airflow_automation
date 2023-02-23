@@ -46,6 +46,8 @@ Note that in Windows this would be:
 export AIRFLOW_HOME=`pwd`/airflow_home
 ```
 
+![Airflow Mac Demo](airflowdemo_mac.png)
+
 **2. Cron Job**
 
 
