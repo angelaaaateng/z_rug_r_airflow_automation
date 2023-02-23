@@ -24,3 +24,18 @@ Features:
 
 
 
+**3. CronR Library or taskscheduleR** 
+
+
+
+## Debugging: 
+
+- R Script Error: 
+```
+> Hmisc::describe(df)  
+Error in x[present, drop = FALSE] : 
+  object of type 'closure' is not subsettable
+In addition: Warning messages:
+1: In is.na(x) : is.na() applied to non-(list or vector) of type 'closure'
+2: In is.na(x) : is.na() applied to non-(list or vector) of type 'closure'
+```
