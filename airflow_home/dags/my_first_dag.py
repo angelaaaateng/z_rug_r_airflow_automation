@@ -5,7 +5,7 @@ import os
 # Get current directory
 # cwd = os.getcwd()
 # cwd = cwd + '/airflow_home/scripts/'
-cwd = '/Users/angelateng/Documents/GitHub/zlift_internal_airflow/airflow_home/scripts'
+cwd = '/Users/angelateng/Documents/GitHub/zlift_internal_airflow/airflow_home/scripts/'
 # Define the default arguments
 args = {
     'owner': 'admin',
@@ -13,7 +13,7 @@ args = {
 }
 # Instantiate the DAG passing the args as default_args
 dag = DAG(
-    dag_id='my_dag_id',
+    dag_id='amber_test_1',
     default_args=args,
     schedule_interval=None
 )
