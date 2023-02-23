@@ -27,6 +27,11 @@ Features:
 **3. CronR Library or taskscheduleR** 
 
 
+## Requirements: 
+- R Scripts 
+- Automation
+- AWS Environment (future state)
+
 
 ## Debugging: 
 
@@ -39,3 +44,8 @@ In addition: Warning messages:
 1: In is.na(x) : is.na() applied to non-(list or vector) of type 'closure'
 2: In is.na(x) : is.na() applied to non-(list or vector) of type 'closure'
 ```
+
+
+## Resources:
+- https://anderfernandez.com/en/blog/how-to-automate-r-scripts-on-windows-and-mac/#:~:text=To%20automate%20R%20scripts%20in%20MacOs%20is%20nearly%20as%20easy,the%20equivalent%20of%20Window's%20TaskScheduler. 
+- 
