@@ -33,9 +33,18 @@ airflow users create \
           --lastname Teng \
           --role Admin \
           --email ambert@z-liftsolutions.com
+
+export AIRFLOW_HOME="$(pwd)/airflow_home"
+airflow scheduler
 ```
 
 - https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
+
+Note that in Windows this would be: 
+
+```
+export AIRFLOW_HOME=`pwd`/airflow_home
+```
 
 **2. Cron Job**
 
