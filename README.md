@@ -23,13 +23,19 @@ Features:
 - Installation: 
 ```
 pip install "apache-airflow[celery]==2.5.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.5.1/constraints-3.7.txt"
+
+export AIRFLOW_HOME="$(pwd)"
 ```
+
+- https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
 
 **2. Cron Job**
 
 
 
 **3. CronR Library or taskscheduleR** 
+
+- https://cran.r-project.org/web/packages/cronR/readme/README.html
 
 ```
 Adding cronjob:
