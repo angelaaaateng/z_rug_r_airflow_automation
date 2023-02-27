@@ -4,14 +4,18 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-
+# install.packages("stringr")
+# library(stringr)
 ```
 
 
 ```{r echo = FALSE, results = 'asis'}
-library(knitr)
+# library(knitr)
+# library(kable)
 readfile <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/males.csv")
-kable(readfile[1:5, ], caption ='Males')
+# kable(readfile[1:5, ], caption ='Males')
+readtable <- read.table("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/males.csv", sep= ",", header=TRUE)
+readtable[1:5, ]
 ```
 <!-- ### Counts by gender -->
 
@@ -21,7 +25,9 @@ kable(readfile[1:5, ], caption ='Males')
 <!-- ![](/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_age.png) -->
 
 ```{r echo = FALSE, results = 'asis'}
-library(knitr)
-readfile <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/females.csv")
-kable(readfile[1:5, ], caption ='Females')
+# library(knitr)
+# readfile <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/females.csv")
+# kable(readfile[1:5, ], caption ='Females')
+readtable <- read.table("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/females.csv", sep= ",", header=TRUE)
+readtable[1:5, ]
 ```

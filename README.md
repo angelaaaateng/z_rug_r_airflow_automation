@@ -8,17 +8,17 @@ Here are a few ways we can automate R scripts, for exploration.
 **1. Apahce Airflow** 
 
 Principles: 
-	• Scalable
-	• Dynamic
-	• Extensible
-	• Elegant
+- Scalable
+- Dynamic
+- Extensible
+- Elegant
 
 Features:
-	• Pure Python
-	• Useful UI 
-	• Robust Integrations
-	• Easy to Use
-    • Open Source 
+- Pure Python
+- Useful UI 
+- Robust Integrations
+- Easy to Use
+- Open Source 
 
 - Installation: 
 ```
@@ -51,6 +51,12 @@ export AIRFLOW_HOME=`pwd`/airflow_home
 ```
 
 ![Airflow Mac Demo](airflowdemo_mac.png)
+
+If you forget your password, you can't reset it just locally, but you can delete a user then add a new one like the ff:  
+
+```
+airflow users delete -u admin -e ambert@z-liftsolutions.com
+```
 
 **2. Cron Job**
 
