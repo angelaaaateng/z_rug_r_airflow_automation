@@ -33,10 +33,10 @@ C = BashOperator(
     bash_command=f'{cwd}run_r.sh {cwd}C_task.R ',
     dag=dag,
     )
-command_line = 'Rscript -e "rmarkdown::render('+ "'" + f'{cwd}D_task.Rmd' + "')" + '"'
+# command_line = 'Rscript -e "rmarkdown::render('+ "'" + f'{cwd}D_task.Rmd' + "')" + '"'
 D = BashOperator(
-    task_id='D_html_report',
-    bash_command=f'{command_line} ',
+    task_id='D_html_report_alternate',
+    bash_command=f'{cwd}run_r.sh {cwd}D_task_alternate.R ',
     dag=dag,
     )
 # Define the task dependencies
