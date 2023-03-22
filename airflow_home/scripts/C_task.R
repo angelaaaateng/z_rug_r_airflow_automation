@@ -33,10 +33,6 @@
 #   
 # }
 
-
-# Load data
-data <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/users.csv", header=TRUE)
-
 # # Barplot
 # p <- ggplot(data, aes(x = as.factor(dob.age))) +
 #   geom_bar(stat = "count", position = "stack", fill = "#FF6666") +
@@ -46,6 +42,9 @@ data <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/user
 # png("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/counts_by_age.png", width = 800, height = 400)
 # print(p)
 # dev.off()
+
+# Load data
+data <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/users.csv", header=TRUE)
 
 output <- data[data$gender == 'female',]
 write.csv(output,"/Users/angelateng/Documents/GitHub/zlift_internal_airflow/females.csv", row.names = FALSE)

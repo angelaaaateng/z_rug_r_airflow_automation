@@ -32,6 +32,13 @@
 # library(ggplot2)
 
 # Load data
+
+
+
+
+
+
+
 data <- read.csv("/Users/angelateng/Documents/GitHub/zlift_internal_airflow/users.csv", header=TRUE)
 
 # dataframe

@@ -97,7 +97,9 @@ In addition: Warning messages:
 
 - If the Airflow UI + PID errors out: 
   - https://stackoverflow.com/questions/45853013/airflow-tasks-get-stuck-at-queued-status-and-never-gets-running
-
+  - https://stackoverflow.com/questions/38992997/dag-not-visible-in-web-ui 
+  - https://stackoverflow.com/questions/55729303/airflow-webserver-started-but-ui-doesnt-show-in-browser
+  - https://stackoverflow.com/questions/45388141/airflow-cant-connect-to-0-0-0-0-8080
 
 ## Resources:
 - https://anderfernandez.com/en/blog/how-to-automate-r-scripts-on-windows-and-mac/#:~:text=To%20automate%20R%20scripts%20in%20MacOs%20is%20nearly%20as%20easy,the%20equivalent%20of%20Window's%20TaskScheduler. 
