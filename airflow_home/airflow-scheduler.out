@@ -11,3 +11,23 @@
 [[34m2023-03-22 11:00:27,919[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2023-03-22 11:03:10,951[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2023-03-22 11:05:29,654[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-03-22 11:08:12,996[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-03-22 11:10:30,731[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-03-22 11:12:24,124[0m] {[34mscheduler_job.py:[0m179} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2023-03-22 11:12:24,124[0m] {[34mscheduler_job.py:[0m179} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2023-03-22 11:12:25,149[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 16183. PIDs of all processes in the group: [16183][0m
+[[34m2023-03-22 11:12:25,151[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 16183[0m
+[[34m2023-03-22 11:12:25,153[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 15968. PIDs of all processes in the group: [20394, 15968][0m
+[[34m2023-03-22 11:12:25,155[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 15968[0m
+[2023-03-22T11:12:25.507+0800] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[[34m2023-03-22 11:12:25,701[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=20394, status='terminated', started='11:12:23') (20394) terminated with exit code None[0m
+[[34m2023-03-22 11:12:25,983[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=16183, status='terminated', exitcode=0, started='10:53:07') (16183) terminated with exit code 0[0m
+[[34m2023-03-22 11:12:26,005[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 16183. PIDs of all processes in the group: [][0m
+[[34m2023-03-22 11:12:26,005[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 16183[0m
+[[34m2023-03-22 11:12:26,006[0m] {[34mprocess_utils.py:[0m98} INFO[0m - Sending the signal Signals.SIGTERM to process 16183 as process group is missing.[0m
+[[34m2023-03-22 11:12:26,007[0m] {[34mscheduler_job.py:[0m788} INFO[0m - Exited execute loop[0m
+[[34m2023-03-22 11:12:26,051[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=15968, status='terminated', exitcode=0, started='10:50:27') (15968) terminated with exit code 0[0m
+[[34m2023-03-22 11:12:26,067[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 15968. PIDs of all processes in the group: [][0m
+[[34m2023-03-22 11:12:26,068[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 15968[0m
+[[34m2023-03-22 11:12:26,069[0m] {[34mprocess_utils.py:[0m98} INFO[0m - Sending the signal Signals.SIGTERM to process 15968 as process group is missing.[0m
+[[34m2023-03-22 11:12:26,069[0m] {[34mscheduler_job.py:[0m788} INFO[0m - Exited execute loop[0m
