@@ -95,7 +95,11 @@ In addition: Warning messages:
 2: In is.na(x) : is.na() applied to non-(list or vector) of type 'closure'
 ```
 
+- If the Airflow UI + PID errors out: 
+  - https://stackoverflow.com/questions/45853013/airflow-tasks-get-stuck-at-queued-status-and-never-gets-running
+
 
 ## Resources:
 - https://anderfernandez.com/en/blog/how-to-automate-r-scripts-on-windows-and-mac/#:~:text=To%20automate%20R%20scripts%20in%20MacOs%20is%20nearly%20as%20easy,the%20equivalent%20of%20Window's%20TaskScheduler. 
 - https://lcalcagni.medium.com/running-r-scripts-in-airflow-using-airflow-bashoperators-6d827f5da5b1 
+- Airflow cheat sheet: https://levelup.gitconnected.com/airflow-command-line-interface-cli-cheat-sheet-6e5d90bd3552 
